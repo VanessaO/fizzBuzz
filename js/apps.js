@@ -10,8 +10,8 @@ else if (i % 5 === 0) {
    $( "#main" ).append( "</p>buzz</p>" );
 }
 
-else if (i % 3 === 0 && i % 5 === 0) {
-   $( "#main" ).append( "<p>fizz buzz</p>" );
+else if (i % 15 === 0) {
+   $( "#main" ).append( "<p>fizzbuzz</p>" );
 }
 
 else {
